@@ -1,0 +1,19 @@
+{
+    "name": "asmaa/notification",
+    "description": "This package helps you send API notifications",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "Asmaa\\Notification\\": "src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Asmaa\\Notification\\NotificationServiceProvider"
+        ]
+      }
+    },
+    "require": {}
+  }
