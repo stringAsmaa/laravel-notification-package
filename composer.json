@@ -14,5 +14,12 @@
             "Asmaa\\Notification\\": "packages/asmaa/notification/src/"
         }
     },
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Asmaa\\Notification\\NotificationServiceProvider"
+            ]
+        }
+    }
 }
